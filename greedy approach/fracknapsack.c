@@ -2,7 +2,6 @@
 void merge(float ratio[], int profit[], int weight[], int start, int mid, int end) {
     int leftSize = mid - start + 1;
     int rightSize = end - mid;
-    
     float leftRatio[leftSize];
     int leftProfit[leftSize], leftWeight[leftSize];
     
@@ -114,3 +113,4 @@ int main(){
     printf("Maximum profit in knapsack = %0.2f", totalprofit);
     return 0;
 }
+
